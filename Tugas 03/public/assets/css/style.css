@@ -1,8 +1,9 @@
-html, body{
+.html, body{
  height: 100%;
  margin: 0;
  font-family: "poppins", sans-serif;
  margin-bottom: 20px;
+ background-color: #BAD7E9;
 }
 
 header{
@@ -10,7 +11,7 @@ header{
     position: relative;
     text-align: center;
     justify-content: center;
-    background-color: #607adb;
+    background-color: #2B3467;
     font-size: 25px;
     font-family: "poppins";
     color: aliceblue;
@@ -19,7 +20,7 @@ header{
 
 }
 .rifal{
-    border-radius: 100%;
+    border-radius: 8%;
     margin-left: 17px;
     margin-bottom: 17px;
     width: 120px;
@@ -29,13 +30,17 @@ header{
 .KTM{
     text-align: center;
     margin-top: 2px;
+    background-color: #0F3460;
+    
 }
-.biodata {
+.card {
     background-size: cover;
+    background-color: #2B3467;
+    color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: right;
     margin-right: 10px;
-    border: 8px solid #ccc; /* Membuat border kotak */
+    border: 5px solid #ccc; /* Membuat border kotak */
     padding: 30px; /* Menambahkan jarak antara isi kotak dengan border */
     width: 230px; /* Menentukan lebar kotak */
     height: 350px;
@@ -43,26 +48,30 @@ header{
   }
   
 
-footer{
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
     display: flex;
-    margin-top: 200px;
-    margin-bottom: 0px;
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    color: black;
-    line-height: 70px;
     justify-content: center;
-    bottom: 0%;
-    background-color: #607adb;
-    
-}
+    align-items: center;
+    background-color: #2B3467;
+    color: white;
+  }
 
 .tabel{
     margin-left: 20px;
+    
+    
 }
-
+.headert{
+    text-align: center;
+    background-color: #2B3467;
+    color: aliceblue;
+}
 tr{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: #FCFFE7;
+    color: black;
 }
